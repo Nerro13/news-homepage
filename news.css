@@ -1,0 +1,123 @@
+body{
+    font-family: inter;
+}
+@font-face {
+    font-family:inter ;
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+.navbar{
+    display: block;
+    text-align: right;
+    word-spacing: 20px;
+    padding-right: 20px;
+}
+#not,a{
+    text-decoration: none;
+    color: grey;
+}
+.first{
+    width: 500px;
+    height: 500px;
+    margin: 20px 0px 0px 40px;
+}
+.first img{
+    width:500px;
+    height: 300px;
+}
+.words{
+    display: block;
+}
+.words h1{
+    height: 0px;
+    
+}
+.second h5, p{
+    color: white;
+}
+.second h3{
+    color: orange;
+}
+.second{
+    background-color:black; 
+    margin: 20px 20px 0px 0px;
+    width: 300px;
+    height: 400px;
+}
+.mains{
+    display: flex;
+    justify-content: space-between;
+}
+.seperator{
+    position: relative;
+    width: 300px;
+    bottom: 130px;
+    left: 190px;
+}
+.big{
+    width: 900px;
+}
+.lastone{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: relative;
+    top: -29px;
+    margin-left: 40px;
+    
+}
+.card{
+    display: flex;
+}
+.card img{
+    width: 100px;
+    height: 150px;
+}
+.card p{
+    width:180px ;
+    height: 0px;
+    position:relative ;
+    top: 60px;
+    color: black;
+    left: -120px;
+    flex-wrap: wrap;
+    margin: 16px 0px;
+}
+.card span{
+    font-size:34px;
+    position: relative;
+    left: 25px;
+    color: lightgray;
+}
+.card h5{
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+#here{
+    position: relative;
+    left: -70px;
+}
+#there{
+    position: relative;
+    left: -130px;
+}
+h1{
+    font-weight: bold;
+}
+button{
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    width: 120px;
+    height: 24px;
+    position: relative;
+    bottom: 10px;   
+}
+.second h3,h5,p{
+    padding-left: 4px;
+    font-weight: 300;
+}
+hr{
+   width: 95%;
+
+}
